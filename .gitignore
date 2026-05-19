@@ -1,0 +1,21 @@
+# Local state — the script's sqlite cache of seen jobs
+seen_jobs.db
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Local env files (in case you use .env loaders later)
+.env
+.env.local
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
